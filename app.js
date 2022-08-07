@@ -49,7 +49,7 @@ app.post("/", function(req, res){
     // Defining the method and adding the API key for authentication with username in the format "username:APIKey"
     const options = {
         method: "POST",
-        auth: "talha1:effdbd55f4c7dc03323d866ac903e5a5-us12"
+        auth: "usernameHere:MailchimpApiKeyHere"
     }
 
     // Using https.request in this way by making a const so we can send our data "jsonData" over to Mailchimp
@@ -86,8 +86,3 @@ app.listen(process.env.PORT || 3000, function(){
 
 
 
-// API KEY 
-// 892ab82d84d4fdd7bf8d27a92422d0ef-us12
-
-// AUDIENCE ID / LIST ID
-// 46bff8f21a
